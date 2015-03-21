@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    missy_elliot (1.0.0)
+    missy_elliott (1.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -15,5 +15,5 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.7)
   minitest
-  missy_elliot!
+  missy_elliott!
   rake (~> 10.0)

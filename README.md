@@ -1,17 +1,9 @@
-# MissyElliot
+# MissyElliott
 
-Got a big string?
-
-Let me search it.
-
-Shift yo bits down,
-
-Flip it,
-
-And reverse it.
+![Missy Elliott](http://i.imgur.com/P23jxLq.jpg)
 
 ```ruby
-MissyElliot.encode("Example") # => "\xAE\xF0\xBC\xA4\xF8\xE4\xAC"
+MissyElliott.encode("Example") # => "\xAE\xF0\xBC\xA4\xF8\xE4\xAC"
 
 #"Example"
 #--> ["E", "x", "a", "m", "p", "l", "e"]
@@ -27,19 +19,19 @@ MissyElliot.encode("Example") # => "\xAE\xF0\xBC\xA4\xF8\xE4\xAC"
 #--> ["\xAE", "\xF0", "\xBC", "\xA4", "\xF8", "\xE4", "\xAC"]
 #--> ["\xAE\xF0\xBC\xA4\xF8\xE4\xAC"]
 
-MissyElliot.decode("\xAE\xF0\xBC\xA4\xF8\xE4\xAC") # => "Example"
+MissyElliott.decode("\xAE\xF0\xBC\xA4\xF8\xE4\xAC") # => "Example"
 ```
 
 This gem is a blatant rip-off of [an old XKCD comic](http://xkcd.com/153/):
 
-[![XKCD Comic](http://imgs.xkcd.com/comics/cryptography.png)]
+![XKCD Comic](http://imgs.xkcd.com/comics/cryptography.png)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'missy_elliot'
+gem 'missy_elliott'
 ```
 
 And then execute:
@@ -48,12 +40,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install missy_elliot
+    $ gem install missy_elliott
 
 ## Contributing
 
 1. Got a bug fix?
-2. You'd better work on it    ( https://github.com/tom-lord/missy_elliot/fork )
+2. You'd better work on it    ( https://github.com/tom-lord/missy_elliott/fork )
 3. Create your feature branch (`git checkout -b my-new-feature`)
 4. Commit it                  (`git commit -am 'Add some feature'`)
 5. And converse it            (`git push origin my-new-feature`)
