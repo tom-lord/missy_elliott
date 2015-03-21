@@ -1,6 +1,6 @@
 # MissyElliott
 
-![Missy Elliott](http://i.imgur.com/P23jxLq.jpg)
+[![Missy Elliott](http://i.imgur.com/P23jxLq.jpg)](https://www.youtube.com/watch?v=zm28EEeyLek)
 
 ```ruby
 MissyElliott.encode("Example") # => "\xAE\xF0\xBC\xA4\xF8\xE4\xAC"
