@@ -53,7 +53,7 @@ Or install it yourself as:
 ## Contributing
 
 1. Got a bug fix?
-2. You'd better work on it    ( https://github.com/[my-github-username]/missy_elliot/fork )
+2. You'd better work on it    ( https://github.com/tom-lord/missy_elliot/fork )
 3. Create your feature branch (`git checkout -b my-new-feature`)
 4. Commit it                  (`git commit -am 'Add some feature'`)
 5. And converse it            (`git push origin my-new-feature`)
