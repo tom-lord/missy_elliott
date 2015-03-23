@@ -1,4 +1,6 @@
 # MissyElliott
+[![Gem Version](https://badge.fury.io/rb/missy_elliott.svg)](http://badge.fury.io/rb/missy_elliott)
+[![Build Status](https://travis-ci.org/tom-lord/missy_elliott.svg?branch=master)](https://travis-ci.org/tom-lord/missy_elliott/builds)
 
 [![Missy Elliott](http://i.imgur.com/P23jxLq.jpg)](https://www.youtube.com/watch?v=zm28EEeyLek)
 
@@ -17,7 +19,7 @@ MissyElliott.encode("Example") # => "\xAE\xF0\xBC\xA4\xF8\xE4\xAC"
 #--> ["10101110", "11110000", "10111100", "10100100", "11111000", "11100100", "10101100"]
 #--> [174, 240, 188, 164, 248, 228, 172]
 #--> ["\xAE", "\xF0", "\xBC", "\xA4", "\xF8", "\xE4", "\xAC"]
-#--> ["\xAE\xF0\xBC\xA4\xF8\xE4\xAC"]
+#--> "\xAE\xF0\xBC\xA4\xF8\xE4\xAC"
 
 MissyElliott.decode("\xAE\xF0\xBC\xA4\xF8\xE4\xAC") # => "Example"
 ```
