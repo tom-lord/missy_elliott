@@ -24,6 +24,10 @@ MissyElliott.encode("Example") # => "\xAE\xF0\xBC\xA4\xF8\xE4\xAC"
 MissyElliott.decode("\xAE\xF0\xBC\xA4\xF8\xE4\xAC") # => "Example"
 ```
 
+Although `MissyElliott.encode` and `MissyElliott.decode` have different implentations, they are actually doing the exact same thing!
+
+This is because the algorithm is a reciprocal cipher. [See what I had to say about all this on my blog](http://tom-lord.weebly.com/blog/missy-elliotts-reciprocal-cipher-and-perfect-oscillating-sequences).
+
 This gem is a blatant rip-off of [an old XKCD comic](http://xkcd.com/153/):
 
 ![XKCD Comic](http://imgs.xkcd.com/comics/cryptography.png)
